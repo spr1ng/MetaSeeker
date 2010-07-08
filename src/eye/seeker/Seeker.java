@@ -4,24 +4,25 @@
  */
 package eye.seeker;
 
+import eye.core.model.ext.ImageFactory;
 import com.db4o.ObjectContainer;
 import com.db4o.query.Predicate;
-import eye.DBManagerEyeImpl;
-import eye.ImageFactory;
-import eye.models.Image;
+import eye.server.manager.impl.DBManagerBasicImpl;
+import eye.core.model.Image;
+import eye.server.manager.AbstractDBManager;
 import java.util.List;
 import org.apache.log4j.Logger;
-import static eye.net.InetUtils.*;
+import static eye.core.util.InetUtils.*;
 
 /**
  *
  * @author spr1ng
- * @version $Id: Seeker.java 29 2010-07-01 05:36:23Z spr1ng $
+ * @version $Id: Seeker.java 60 2010-07-08 03:39:16Z spr1ng $
  */
 public class Seeker {
 
     private static final Logger LOG = Logger.getLogger(Seeker.class);
-    private static DBManagerEyeImpl dbm = new DBManagerEyeImpl();
+    private static AbstractDBManager dbm = new DBManagerBasicImpl();
     private ObjectContainer clientDB;
 
     public static void main(String[] args) throws InterruptedException{

@@ -1,17 +1,17 @@
 10
 
 dir
-15
+55
 svn://localhost/spr1ngsvn/TheEye/MetaSeeker
 svn://localhost/spr1ngsvn/TheEye
 
 
 
-2010-06-29T03:06:31.926120Z
-15
-spr1ng
+2010-07-08T02:23:12.150692Z
+54
+stream
 has-props
-has-prop-mods
+
 
 
 
@@ -29,6 +29,40 @@ has-prop-mods
 test
 dir
 
+conf.properties
+file
+
+
+
+
+2010-07-08T02:31:17.670585Z
+5e47fa44d3dbebd8d21719d2c2a1b423
+2010-07-08T02:23:12.150692Z
+54
+stream
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+84
+
 dist
 dir
 
@@ -40,7 +74,7 @@ dir
 
 manifest.mf
 file
-14
+
 
 
 
@@ -75,9 +109,43 @@ spr1ng
 libs
 dir
 
+README
+file
+
+
+
+
+2010-07-02T05:16:55.202566Z
+d41d8cd98f00b204e9800998ecf8427e
+2010-07-06T02:15:27.218843Z
+42
+spr1ng
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+0
+
 build.xml
 file
-14
+
 
 
 

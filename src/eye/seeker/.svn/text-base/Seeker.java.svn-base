@@ -4,14 +4,15 @@
  */
 package eye.seeker;
 
+import eye.core.model.ext.ImageFactory;
 import com.db4o.ObjectContainer;
 import com.db4o.query.Predicate;
-import eye.DBManagerEyeImpl;
-import eye.ImageFactory;
-import eye.models.Image;
+import eye.server.manager.impl.DBManagerBasicImpl;
+import eye.core.model.Image;
+import eye.server.manager.AbstractDBManager;
 import java.util.List;
 import org.apache.log4j.Logger;
-import static eye.net.InetUtils.*;
+import static eye.core.util.InetUtils.*;
 
 /**
  *
@@ -21,7 +22,7 @@ import static eye.net.InetUtils.*;
 public class Seeker {
 
     private static final Logger LOG = Logger.getLogger(Seeker.class);
-    private static DBManagerEyeImpl dbm = new DBManagerEyeImpl();
+    private static AbstractDBManager dbm = new DBManagerBasicImpl();
     private ObjectContainer clientDB;
 
     public static void main(String[] args) throws InterruptedException{
