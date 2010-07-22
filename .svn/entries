@@ -1,15 +1,15 @@
 10
 
 dir
-55
+94
 svn://localhost/spr1ngsvn/TheEye/MetaSeeker
 svn://localhost/spr1ngsvn/TheEye
 
 
 
-2010-07-08T02:23:12.150692Z
-54
-stream
+2010-07-12T04:09:00.231511Z
+94
+spr1ng
 has-props
 
 
@@ -31,7 +31,7 @@ dir
 
 conf.properties
 file
-
+79
 
 
 
@@ -65,6 +65,10 @@ stream
 
 dist
 dir
+
+
+
+delete
 
 nbproject
 dir
@@ -74,7 +78,7 @@ dir
 
 manifest.mf
 file
-
+79
 
 
 
@@ -111,7 +115,7 @@ dir
 
 README
 file
-
+79
 
 
 
@@ -145,7 +149,7 @@ spr1ng
 
 build.xml
 file
-
+79
 
 
 

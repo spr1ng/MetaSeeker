@@ -1,15 +1,15 @@
 10
 
 dir
-55
+79
 svn://localhost/spr1ngsvn/TheEye/MetaSeeker/src/eye
 svn://localhost/spr1ngsvn/TheEye
 
 
 
-2010-07-08T02:23:12.150692Z
-54
-stream
+2010-07-08T03:39:16.866496Z
+60
+spr1ng
 
 
 
@@ -25,54 +25,6 @@ stream
 
 
 8763ed6d-9318-4032-b958-c511fcb819a9
-
-matcher
-dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-deleted
-
-models
-dir
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-deleted
 
 seeker
 dir

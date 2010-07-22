@@ -7,7 +7,7 @@ package eye.seeker;
 import eye.core.model.ext.ImageFactory;
 import com.db4o.ObjectContainer;
 import com.db4o.query.Predicate;
-import eye.server.manager.impl.DBManagerBasicImpl;
+import eye.server.manager.DBManagerBasicImpl;
 import eye.core.model.Image;
 import eye.server.manager.AbstractDBManager;
 import java.util.List;
@@ -17,7 +17,7 @@ import static eye.core.util.InetUtils.*;
 /**
  *
  * @author spr1ng
- * @version $Id: Seeker.java 60 2010-07-08 03:39:16Z spr1ng $
+ * @version $Id: Seeker.java 120 2010-07-21 04:01:16Z spr1ng $
  */
 public class Seeker {
 
@@ -51,10 +51,12 @@ public class Seeker {
         List<Image> images = clientDB.query(new Predicate<Image>() {
             @Override
             public boolean match(Image image) {
-                return image.getPoints() == null;
+                return image.getEdgeMap() == null ||
+                       image.getAngleMap() == null ;//PENDING: что за х?.. Оо
+//                        !image.hasMetaData();
             }
         });
-
+        
         int idx = 0, size;
         size = images.size();
         LOG.info("new images found: " + size);

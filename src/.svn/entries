@@ -1,15 +1,15 @@
 10
 
 dir
-55
+79
 svn://localhost/spr1ngsvn/TheEye/MetaSeeker/src
 svn://localhost/spr1ngsvn/TheEye
 
 
 
-2010-07-08T02:23:12.150692Z
-54
-stream
+2010-07-08T03:39:16.866496Z
+60
+spr1ng
 
 
 
@@ -31,7 +31,7 @@ dir
 
 log4j.xml
 file
-60
+
 
 
 
